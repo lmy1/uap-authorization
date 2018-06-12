@@ -1,0 +1,15 @@
+server:
+  port: 9990
+  context-path: /uap
+logging:
+  level:
+    org.springframework.security: DEBUG
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.22.213:3306/uap?characterEncoding=utf-8
+    username: zjphis
+    password: zjphis
+  redis:
+    host: 192.168.22.221
+    port: 6379
